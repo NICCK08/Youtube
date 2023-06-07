@@ -1,0 +1,29 @@
+.videos img{
+    width: 360px;
+    height: 202px;
+    border-radius: 10px;
+}
+
+.videodata{
+    display: flex;
+    flex-wrap: wrap;
+    color : #0f0f0f;    ;
+    font-family: "Roboto","Arial",sans-serif;   
+    /* justify-content: space-between; */
+    /* padding: 10px 10px; */
+}
+
+.video{
+    width: 25%;
+}
+
+.videodetails p,a{
+    color: #0f0f0f;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.videodetails h3{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}

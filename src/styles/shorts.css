@@ -1,0 +1,27 @@
+.shorts img{
+    width: 290px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.shortdata{
+    display: flex;
+    flex-wrap: wrap;
+    color : #0f0f0f;
+    font-family: "Roboto","Arial",sans-serif;
+    /* justify-content: space-between; */
+    /* padding: 10px 10px; */
+}
+
+.short{
+    width: 22%;
+}
+
+.shortdetails p{
+    margin: 0px;
+}
+
+.shortdetails h3{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
