@@ -2,10 +2,17 @@ import YoutubeLogo from "../images/YoutubeLogo.png";
 import YTstudio from "../images/YTstudio.png";
 import notification from "../images/notification.png";
 import "../styles/navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="navbar">
+      <div className="navLinks">
+        <Link to="/">Home</Link>
+      </div>
+      <div className="navLinks">
+        <Link to="/add-video">Add Video</Link>
+      </div>
       <div className="logo">
         <img src={YoutubeLogo} alt="" width={120} height={70} />
       </div>
